@@ -1,0 +1,61 @@
+* {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    /* font-family: 'Kosugi Maru', sans-serif; */
+}
+
+body {
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+}
+
+.form h5,
+input {
+    /* margin-top: 10px; */
+    margin: 10px;
+}
+
+.container1 {
+    border: 2px solid black;
+    margin-right: 30px;
+    margin-left: 50px;
+    /* flex: 2; */
+    width: 40%;
+}
+
+.container2 {
+    background-color: yellow;
+    /* flex: 1; */
+    margin-left: 20px;
+    margin-right: 50px;
+    width: 15%;
+}
+
+p,
+h5,
+h3 {
+    padding: 5px;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+.button {
+    border: 2px solid black;
+    background-color: yellow;
+    height: 30px;
+    width: 50px;
+    box-shadow: 3px 3px rgb(37, 36, 36);
+    border-radius: 2px;
+}
