@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profile page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrap">
+        <div class="row1">
+            <div class="col">
+                <div class="header">
+                    <img src="assets/user-circle.png" class="img">
+                </div>
+                <div class="main">
+                    <h2 class="name">Kateryna Shydlovska</h2>
+                    <div class="map">
+                        <img src="assets/map-marker.png">
+                        <h4>Austin</h4>
+                    </div>
+                    <p>Developer | Problem solver</p>
+                    <p>Master of shadows and internet</p>
+                    <div class="gear">
+                        <img src="assets/gear.png">
+                        <a href="#" onclick="changeName()">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="small-header">
+                    <h5>Education</h5>
+                </div>
+                <div class="content">
+                    <p>Code Fellows - Full stack</p>
+                    <p>Sep 2019 - Oct 2020</p>
+                    <p>Java Script, React, C#</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="row2">
+            <div class="col1">
+                <div class="small-header">
+                    <h5> (2) Conection Request</h5>
+                </div>
+                <div class="content">
+                    <div id="remove1" onclick="remove(1)">
+                        <img src="assets/user-circle.png" class="small-img">
+                        <span>Tod Mei</span>
+                        <img src="assets/accept-circle.png" class="small-img">
+                        <img src="assets/close-circle.png" class="small-img">
+                    </div>
+                    <div id="remove2" onclick="remove(2)">
+                        <img src=" assets/user-circle.png " class="small-img ">
+                        <span>D Smiss</span>
+                        <img src="assets/accept-circle.png " class="small-img ">
+                        <img src="assets/close-circle.png " class="small-img ">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col2 your-connections">
+                <div class="small-header">
+                    <h5> (4) Your connections</h5>
+                </div>
+                <div class="content">
+                    <div>
+                        <img src="assets/user-circle.png" class="small-img">
+                        <span>Tod Mei</span>
+                    </div>
+                    <div>
+                        <img src=" assets/user-circle.png " class="small-img ">
+                        <span>D Smiss</span>
+                    </div>
+                    <div>
+                        <img src="assets/user-circle.png" class="small-img">
+                        <span>D Smiss</span>
+                    </div>
+                    <div>
+                        <img src=" assets/user-circle.png " class="small-img ">
+                        <span>D Smiss</span>
+                    </div>
+                    <div class="view ">
+                        <a href="# ">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js "></script>
+</body>
+
+</html>
