@@ -1,0 +1,103 @@
+* {
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(141, 188, 231);
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+li {
+    margin: 20px;
+}
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    width: 65%;
+    margin: auto;
+}
+
+.CityTempreture {
+    margin: 30px;
+    padding: 10px;
+}
+
+.forecast {
+    background-color: rgb(228, 222, 222);
+    width: 220px;
+    text-align: center;
+    margin: 10px;
+}
+
+.forecast img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.blue {
+    color: rgb(112, 112, 221);
+    font-size: medium;
+    font-weight: bold;
+}
+
+.red {
+    color: rgb(236, 104, 104);
+    font-size: medium;
+}
+
+.tempreture {
+    display: flex;
+    justify-content: space-around;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+.coockie {
+    border: 3px solid black;
+    position: fixed;
+    width: 60%;
+    top: 50%;
+    left: 20%;
+    margin-top: 207px;
+    display: flex;
+    background-color: rgb(228, 222, 222);
+    height: 120px;
+}
+
+h4 {
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.coockie p {
+    margin: 5px;
+}
+
+.coockie button {
+    margin-top: 40px;
+    margin-right: 10px;
+    width: 100px;
+    background-color: rgb(111, 160, 206);
+    box-shadow: 3px 3px rgb(37, 36, 36);
+}
+
+.coockieImg {
+    margin-top: 20px;
+}

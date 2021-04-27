@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profile page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links" onclick="clickAlert()">
+                <li>Barbank</li>
+                <li>Chicago</li>
+                <li>Dallas</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="city">
+        <h1> San Jose</h1>
+        <div class="CityTempreture">
+            <label for="CityTempreture">show weather in</label>
+            <select name="temp" id="temp" onchange="change()">
+              <option value="f">&#8457; </option>
+              <option value="c">&#8451;</option>
+            </select>
+        </div>
+    </div>
+    <div id="content">
+        <div class="forecast">
+            <p>Today</p>
+            <img src="assets/some_rain.png">
+            <p>some rain</p>
+            <div class="tempreture">
+                <h5 class="blue">23.9</h5>
+                <h5 class="red">18.3</h5>
+            </div>
+        </div>
+        <div class="forecast">
+            <p>Tomorrow</p>
+            <img src="assets/some_sun.png">
+            <p>some rain</p>
+            <div class="tempreture">
+                <h5 class="blue"> 23.9</h5>
+                <h5 class="red">18.3</h5>
+            </div>
+        </div>
+        <div class="forecast">
+            <p>Friday</p>
+            <img src="assets/some_clouds.png">
+            <p>some rain</p>
+            <div class="tempreture">
+                <h5 class="blue">23.9</h5>
+                <h5 class="red">18.3</h5>
+            </div>
+        </div>
+        <div class="forecast">
+            <p>Saturday</p>
+            <img src="assets/some_sun.png">
+            <p>some rain</p>
+            <div class="tempreture">
+                <h5 class="blue">23.9</h5>
+                <h5 class="red">18.3</h5>
+            </div>
+        </div>
+    </div>
+    <div class="coockie">
+        <div class="coockieImg">
+            <img src="assets/cookie.png">
+        </div>
+        <div>
+            <h4> Stop! Coockie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more..</a></p>
+        </div>
+        <div>
+            <button onclick="hide()">I accept</button>
+        </div>
+    </div>
+
+
+    <script src="app.js "></script>
+</body>
+
+</html>
